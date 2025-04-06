@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/kdachampong/frontendprojects](https://github.com/kdachampong/frontendprojects)
+- Live Site URL: [https://kdachampong.github.io/frontendprojects/](https://kdachampong.github.io/frontendprojects/)
 
 ## My process
 
