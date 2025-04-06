@@ -338,6 +338,9 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
+  .py-\[13px\] {
+    padding-block: 13px;
+  }
   .text-center {
     text-align: center;
   }
@@ -351,6 +354,18 @@
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .leading-1 {
+    --tw-leading: calc(var(--spacing) * 1);
+    line-height: calc(var(--spacing) * 1);
+  }
+  .leading-1\.5 {
+    --tw-leading: calc(var(--spacing) * 1.5);
+    line-height: calc(var(--spacing) * 1.5);
+  }
+  .leading-\[150\%\] {
+    --tw-leading: 150%;
+    line-height: 150%;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -435,6 +450,10 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-font-weight {
   syntax: "*";
