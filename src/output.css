@@ -241,6 +241,9 @@
   .w-22 {
     width: calc(var(--spacing) * 22);
   }
+  .w-23 {
+    width: calc(var(--spacing) * 23);
+  }
   .w-\[100\%\] {
     width: 100%;
   }
